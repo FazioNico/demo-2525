@@ -5,5 +5,5 @@ export const LoadButton = () => {
   const handleClick = () => {
     load();
   };
-  return <button onClick={handleClick}>load upd</button>;
+  return <button onClick={handleClick}>load upd pull request</button>;
 };
