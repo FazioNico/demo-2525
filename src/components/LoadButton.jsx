@@ -5,5 +5,10 @@ export const LoadButton = () => {
   const handleClick = () => {
     load();
   };
-  return <button onClick={handleClick}>load upd from Github</button>;
+  return (
+    <>
+      <p>Click on this button</p>
+      <button onClick={handleClick}>load upd from Github</button>
+    </>
+  );
 };
