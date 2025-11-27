@@ -7,7 +7,7 @@ export const WelcomePage = () => {
     <>
       <h1>{joke ? joke : "loading..."}</h1>
       <p>firday work...</p>
-      <p>re work...</p>
+      <p>Welcome to the app! Get started by loading a joke.</p>
       <LoadButton />
     </>
   );
