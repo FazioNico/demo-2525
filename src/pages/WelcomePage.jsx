@@ -6,6 +6,7 @@ export const WelcomePage = () => {
   return (
     <>
       <h1>{joke ? joke : "loading..."}</h1>
+      <p>firday work...</p>
       <LoadButton />
     </>
   );
