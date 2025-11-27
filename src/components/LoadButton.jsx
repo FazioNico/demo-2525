@@ -7,7 +7,7 @@ export const LoadButton = () => {
   };
   return (
     <>
-      <p>Click on this button</p>
+      <p>Click here</p>
       <button onClick={handleClick}>load upd from Github</button>
     </>
   );
